@@ -1,1 +1,141 @@
+<! FIRST LESSON ON CODECADEMY FOR LEARNING HTML -->
 
+<h1> Kaitlin </h1>
+
+<! learned the format of an HTML element:
+  < tag > Content </tag> -->
+
+<! nesting -->
+<body> 
+  <p> "Life is very short and what we have to do must be done in the now." - Audre Lorde </p>
+</body>
+
+<! HTML hierarchy -->
+<body>
+  <h1>Hello World</h1>
+  <p>This paragraph is a child of the body element</p>
+  <div>
+    <p>This paragraph is a child of the div element and a grandchild of the body element</p>
+  </div> 
+</body>
+
+<! different types of headers -->
+    <body>
+      <h1>The Brown Bear</h1>
+      <h2>About Brown Bears</h2>
+      <h3>Species</h3>
+      <h3>Features</h3>
+      <h2> Habitat </h2>
+      <h3> Countries with Large Brown Bear Populations </h3>
+      <h3> Countries with Small Brown Bear Populations </h3>
+    <h2> Media </h2>
+    </body>
+
+<! the power of div -->
+  <body>
+    <h1>The Brown Bear</h1>
+    <div>
+      <h2>About Brown Bears</h2>
+      <h3>Species</h3>
+      <h3>Features</h3>
+    </div>
+    <div>
+      <h2>Habitat</h2>
+      <h3>Countries with Large Brown Bear Populations</h3>
+      <h3>Countries with Small Brown Bear Populations</h3>
+    </div>
+    <div>
+    <h2>Media</h2>
+    </div>
+  </body>
+
+<! identifying the divisions :0 -->
+  <body>
+    <h1>The Brown Bear</h1>
+    <div id="Introduction">
+      <h2>About Brown Bears</h2>
+      <h3>Species</h3>
+      <h3>Features</h3>
+    </div>
+    <div id="habitat">
+      <h2>Habitat</h2>
+      <h3>Countries with Large Brown Bear Populations</h3>
+      <h3>Countries with Small Brown Bear Populations</h3>
+    </div>
+    <div id="media">
+      <h2>Media</h2>
+    </div>
+
+<! adding paragraphs!! -->
+  <body>
+    <h1>The Brown Bear</h1>
+    <div id="introduction">
+      <h2>About Brown Bears</h2>
+        <p>
+          The brown bear (Ursus arctos) is native to parts of northern Eurasia and North America. Its conservation status is currently Least Concern. There are many subspecies within the brown bear species, including the Atlas bear and the Himalayan brown bear.
+          </p>
+      <h3>Species</h3>
+      <h3>Features</h3>
+        <p>
+          Brown bears are not always completely brown. Some can be reddish or yellowish. They have very large, curved claws and huge paws. Male brown bears are often 30% larger than female brown bears. They can range from 5 feet to 9 feet from head to toe.
+          </p>
+    </div>
+    <div id="habitat">
+      <h2>Habitat</h2>
+      <h3>Countries with Large Brown Bear Populations</h3>
+      <h3>Countries with Small Brown Bear Populations</h3>
+        <p>
+          Some countries with smaller brown bear populations include Armenia, Belarus, Bulgaria, China, Finland, France, Greece, India, Japan, Nepal, Poland, Romania, Slovenia, Turkmenistan, and Uzbekistan.
+          </p>
+    </div>
+    <div id= "media">
+      <h2>Media</h2>
+    </div>
+  </body>
+
+<! added em (italicize) and strong (bold) -->
+        <p>
+          The brown bear (<em>Ursus arctos</em>) is native to parts of northern Eurasia and North America. 
+          Its conservation status is currently <strong>Least Concern</strong>. There are many subspecies within the brown bear species, 
+          including the Atlas bear and the Himalayan brown bear.
+        </p>
+<! <br> for a line break, it only has starting tag --> 
+<! off the clock experimenting w/ <ul> </ul> -->
+    <body>
+      <h1>The Brown Bear</h1>
+      <div id="introduction">
+        <h2>About Brown Bears</h2>
+    <ul>
+        <li> <h3>Species</h3> </li>
+        <h3>Features</h3>
+    </ul>
+      </div>
+    </body>
+
+<! updated species list --> 
+     <h3>Species</h3>
+        <ul> 
+          <li> Arctos </li>
+          <li> Collarus </li>
+          <li> Horribilis </li>
+          <li> Nelsoni (extinct) </li>
+        </ul>
+    <h3>Features</h3>
+
+<! order list for countries --> 
+    <h3>Countries with Large Brown Bear Populations</h3>
+      <ol>
+        <li>Russia </li>
+        <li>United States </li>
+        <li> Canada </li>
+        </ol>
+
+<! insert images! -->
+        <img src="https://content.codecademy.com/courses/web-101/web101-image_brownbear.jpg"/>
+<! accessibility!!! and image description -->
+        <img src="https://content.codecademy.com/courses/web-101/web101-image_brownbear.jpg" 
+          alt="A cute brown bear looking at the camera with a green outdoors-y background"/>
+<! add video --> 
+     <video src="https://content.codecademy.com/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4" width="320" height="240"controls>
+        Video not supported
+      </video>
