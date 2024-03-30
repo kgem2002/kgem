@@ -1,0 +1,23 @@
+/* INTRO TO CSS */
+
+<link href="style.css" rel="stylesheet"> /* linking css to HTML */ 
+/* link must be placed in <head> of html 
+can use link or relative path to show how to get to the css file */ 
+
+/* HTML:   <p style='color: green'>The world is full of fascinating places. Planning the perfect vacation involves packing up, leaving home, and experiencing something new.</p> */
+
+/* HTML 
+<head>
+  <style>
+    p { 
+      color: green;
+    }
+    </style>
+  <title>Vacation World</title>
+</head>
+*/ 
+
+/* <link href='style.css' rel='stylesheet'> */ 
+
+/* FIRST PART COMPLETED */ 
+
