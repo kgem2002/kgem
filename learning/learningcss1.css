@@ -21,3 +21,31 @@ can use link or relative path to show how to get to the css file */
 
 /* FIRST PART COMPLETED */ 
 
+p {
+  color: green;
+}
+
+h1 {
+color: maroon;
+}
+
+/* UNIVERSAL SELECTOR */
+* {
+  border: 1px solid red;
+}
+
+* {
+  border: 1px solid red;
+}
+
+p {
+  color: green;
+}
+
+h1 {
+  color: maroon;
+}
+
+.title {
+color: teal;
+}
